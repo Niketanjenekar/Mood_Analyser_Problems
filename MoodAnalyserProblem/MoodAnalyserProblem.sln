@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodAnalyserProblem", "MoodAnalyserProblem\MoodAnalyserProblem.csproj", "{449CA8B4-4190-4F37-9E56-6E0FB85AAB34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodAnalyserTest", "MoodAnalyserTest\MoodAnalyserTest.csproj", "{C05C9961-0BAE-4CC5-84E3-936CE36C0A1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{449CA8B4-4190-4F37-9E56-6E0FB85AAB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{449CA8B4-4190-4F37-9E56-6E0FB85AAB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{449CA8B4-4190-4F37-9E56-6E0FB85AAB34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05C9961-0BAE-4CC5-84E3-936CE36C0A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05C9961-0BAE-4CC5-84E3-936CE36C0A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05C9961-0BAE-4CC5-84E3-936CE36C0A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05C9961-0BAE-4CC5-84E3-936CE36C0A1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
