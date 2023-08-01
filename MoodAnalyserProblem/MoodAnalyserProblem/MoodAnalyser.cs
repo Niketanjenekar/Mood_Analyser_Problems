@@ -9,15 +9,15 @@ namespace MoodAnalyserProblem
 {
     public class MoodAnalyser
     {        
-        public void AnalyseMood(string message)
+        public string AnalyseMood(string message)
         {
-            if (message.Contains("Happy"))
+            if (message.Contains("Sad"))
             {
-                Console.WriteLine("Your Mood is HAPPY");
+                return "Sad";
             }
             else
             {
-                Console.WriteLine("Your Mood is SAD");
+                return "Happy";
             }
         }
     }
