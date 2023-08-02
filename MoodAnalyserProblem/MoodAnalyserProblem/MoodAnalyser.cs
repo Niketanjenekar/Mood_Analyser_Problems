@@ -15,6 +15,10 @@ namespace MoodAnalyserProblem
             {
                 return "Sad";
             }
+            else if (message.Contains("Any"))
+            {
+                return "Any";
+            }
             else
             {
                 return "Happy";

@@ -9,9 +9,9 @@ namespace MoodAnalyserTest
         [Test]
         public void AnalyseAndRespond()
         {
-            string result = analyse.AnalyseMood("I am Sad");
+            string result = analyse.AnalyseMood("I am Any Mood");
 
-            Assert.AreEqual(result, "Sad");
+            Assert.AreEqual(result, "Any");
         }
 
         
