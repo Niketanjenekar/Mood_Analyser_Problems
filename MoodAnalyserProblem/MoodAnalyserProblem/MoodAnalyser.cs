@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,17 +9,17 @@ using System.Threading.Tasks;
 namespace MoodAnalyserProblem
 {
     public class MoodAnalyser
-    {        
-        public string AnalyseMood(string message)
+    { private string message;
+        public MoodAnalyser(string message)
+        {
+            this.message = message;
+        }
+        public string AnalyseMood()
         {
             if (message.Contains("Sad"))
             {
                 return "Sad";
-            }
-            else if (message.Contains("Any"))
-            {
-                return "Any";
-            }
+            }           
             else
             {
                 return "Happy";

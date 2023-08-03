@@ -4,16 +4,17 @@ namespace MoodAnalyserTest
 {
     public class Tests
     {
-        MoodAnalyser analyse = new MoodAnalyser();
-
         [Test]
         public void AnalyseAndRespond()
         {
-            string result = analyse.AnalyseMood("I am Any Mood");
+            MoodAnalyser analyse = new MoodAnalyser("I am Happy Mood");
 
-            Assert.AreEqual(result, "Any");
+            string result = analyse.AnalyseMood();
+
+            Assert.AreEqual(result, "Happy");
         }
 
+        
         
         
     }
