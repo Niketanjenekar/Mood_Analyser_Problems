@@ -13,7 +13,19 @@ namespace MoodAnalyserTest
 
             Assert.AreEqual(result, "Happy");
         }
-
+        [Test]
+        public void ThrowCustomException()
+        {
+            try
+            {
+                MoodAnalyser moodAnalyser = new MoodAnalyser(null);
+                string result = moodAnalyser.AnalyseMood();
+            }
+            catch(Mood_Analyser_Custom_Exception ex)
+            {
+                Assert.AreEqual(ex.Message, "Message Should Not be Null");
+            }
+        }
         
         
         
