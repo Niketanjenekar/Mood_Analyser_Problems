@@ -22,7 +22,7 @@ namespace MoodAnalyserProblem
                 {
                     return "Sad";
                 }
-                else if (message.Contains("Happy"))
+                else if (message.Contains("Null"))
                 {
                     return "Happy";
                 }

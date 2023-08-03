@@ -7,11 +7,11 @@ namespace MoodAnalyserTest
         [Test]
         public void AnalyseAndRespond()
         {
-            MoodAnalyser analyse = new MoodAnalyser("I am Good Mood");
+            MoodAnalyser analyse = new MoodAnalyser("I am Null Mood");
 
             string result = analyse.AnalyseMood();
 
-            Assert.AreEqual(result, "Null");
+            Assert.AreEqual(result, "Happy");
         }
 
         
