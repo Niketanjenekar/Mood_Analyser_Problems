@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using static MoodAnalyserProblem.Mood_Analyser_Custom_Exception;
 
 namespace MoodAnalyserProblem
 {
@@ -33,7 +34,8 @@ namespace MoodAnalyserProblem
             }
             catch(NullReferenceException)
             {
-                return "Happy";
+                //return "Happy";
+                throw new Mood_Analyser_Custom_Exception("Message Should Not be Null", Mood_Analyser_ExceptionType.NULL_MOOD);
             }
         }
     }
